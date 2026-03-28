@@ -7,10 +7,11 @@
  *
  * @author sakha
  */
-public class Payment {
-    double amount;
+package vit.devops.macse639.ticketreservation;
 
-    public Payment(double amount) {
-        this.amount = amount;
+public class Ticket {
+
+    public boolean bookTicket() {
+        return true;
     }
 }

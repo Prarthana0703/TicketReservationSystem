@@ -7,16 +7,18 @@
  *
  * @author sakha
  */
+package vit.devops.macse639.ticketreservation;
+
 public class Train {
-    String model;
-    int trainId;
+    private String model;
+    private int trainId;
 
     public Train(String model, int trainId) {
         this.model = model;
         this.trainId = trainId;
     }
 
-    public void showTrain() {   // ✅ THIS METHOD MUST EXIST
-        System.out.println("Train ID: " + trainId + ", Model: " + model);
+    public String getTrainName() {
+        return model;
     }
 }
