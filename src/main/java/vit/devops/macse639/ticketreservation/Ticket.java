@@ -12,6 +12,6 @@ package vit.devops.macse639.ticketreservation;
 public class Ticket {
 
     public boolean bookTicket() {
-        return true;
+        return false;
     }
 }
